@@ -5,6 +5,15 @@
 
 .stores > div{
     text-align: center;
+    position: relative;
+}
+
+.stores > div > img{
+    position: absolute;
+    width: 350px;
+    height: auto;
+    top: -240px;
+    right: -150px;
 }
 
 .stores > div h2{
@@ -70,9 +79,19 @@
     transition: 0.2s ease;
 }
 
+@media only screen and (min-width: 1500px) {
+    .stores > div > img{
+        right: -280px;
+    }
+}
+
 @media only screen and (max-width: 1375px) {
     .stores > div{
         padding: 0 50px;
+    }
+
+    .stores > div > img{
+        right: -100px;
     }
 }
 
@@ -88,6 +107,14 @@
 
     .stores > div > div section{
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .stores > div > img{
+        top: -265px;
+        right: -75px;
+        width: 200px;        
     }
 }
 

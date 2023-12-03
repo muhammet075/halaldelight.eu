@@ -6,6 +6,7 @@ import nlFlag from "../assets/flags/nl.svg";
 import beFlag from "../assets/flags/be.svg";
 import deFlag from "../assets/flags/de.svg";
 import frFlag from "../assets/flags/fr.svg";
+import TangyMix from "../assets/img/Tangy-Mix.png"
 
 function Stores() {
 
@@ -17,6 +18,8 @@ function Stores() {
         <div className={styles.stores} id="stores">  
             <div>
                 <h2>Select your country</h2>
+                
+                <Image src={TangyMix} alt="TangyMix Candy"/>
 
                 <div>
                     <section>

@@ -3,6 +3,7 @@ import Head from "next/head";
 import Stores from "../components/stores";
 import Products from "../components/products";
 import About from "../components/about";
+import Contact from "../components/contact";
 
 export default function Home() {
   useEffect(() => {
@@ -18,6 +19,7 @@ export default function Home() {
         <Stores/>
         <About/>
         <Products/>
+        <Contact/>
       </div>
     </>
   );

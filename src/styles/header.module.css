@@ -56,12 +56,12 @@
     text-decoration: none;
     font-family: "Fredoka";
     font-size: 1.4em;
-    font-weight: 600;
-    color: #ff0000;
+    font-weight: 500;
+    color: #1bb4ff;
 }
 
 .header > div > nav > ul li a:hover{
-    color: #0090d8;
+    color: #eb4aa0;
     transition: 0.2s ease;
 }
 
