@@ -29,6 +29,7 @@
 .header > div > section > a img{
     width: 250px;
     height: auto;
+    margin-top: 5px;
 }
 
 .header > div > nav{
