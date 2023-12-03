@@ -1,0 +1,187 @@
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 1300px;
+    z-index: 9999;
+}
+
+.header > div{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header > div > section{
+    width: fit-content;
+    height: fit-content;
+    /* background-color: #ffff;
+    padding: 15px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+.header > div > section > a img{
+    width: 250px;
+    height: auto;
+}
+
+.header > div > nav{
+    position: relative;
+    width: auto;
+    margin-top: -100px;
+    background-color: #ffff;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.header > div > nav > div{
+    display: none;
+}
+
+.header > div > nav > ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px 0;
+}
+
+.header > div > nav > ul li a{
+    padding: 0 20px;
+    text-decoration: none;
+    font-family: "Fredoka";
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #ff0000;
+}
+
+.header > div > nav > ul li a:hover{
+    color: #0090d8;
+    transition: 0.2s ease;
+}
+
+.header > div > button{
+    display: none;
+}
+
+@media only screen and (max-width: 1375px) {
+    .header > div{
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    .header > div > section{
+        margin: auto;
+    }
+
+    .header > div > section > a > img{
+        width: 250px;
+    }
+
+    .header > div > button{
+        display: block;
+        position: absolute;
+        left: 50px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: fit-content;
+        height: fit-content;
+        background-color: #ffff;
+        padding: 5px;
+        border-radius: 5px;
+        border: 0px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .header > div > button > img{
+        width: 50px;
+        height: auto;
+    }
+
+    .header > div > nav{
+        display: none;    
+        flex-direction: row-reverse;
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        height: 100%;
+        margin: auto;
+        border-radius: 0;
+        background: #000000c2;
+        z-index: 9999;
+    }
+
+    .header > div > nav > ul{
+        position: fixed;
+        background: #ffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 60%;
+        height: 100%;
+        left: -2000px;
+    }
+
+    .header > div > nav > ul li{
+        margin-bottom: 15px;
+        font-size: 1.2em;
+    }
+
+    .header > div > nav > div{
+        display: flex;
+        justify-content: center;
+        width: 40%;
+        padding: 25px 0 0 0;
+    }
+
+    .header > div > nav > div > img{
+        height: 50px;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header > div{
+        padding: 0 15px;
+    }
+
+    .header > div > button{
+        left: 15px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .header > div > section > a > img{
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .header > div > section > a > img{
+        width: 175px;
+    }
+
+    .header > div > button > img{
+        width: 40px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .header > div > nav > ul li{
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .header > div > section > a > img{
+        width: 125px;
+    }
+}

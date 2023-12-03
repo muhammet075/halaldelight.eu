@@ -1,12 +1,11 @@
 import { useEffect } from "react";
-import { Translate } from "../components/translate";
-import Hero from "../components/hero";
-import PriceCalculator from "../components/pricecalculator";
 import Head from "next/head";
+import Stores from "../components/stores";
+import Products from "../components/products";
+import About from "../components/about";
 
 export default function Home() {
   useEffect(() => {
-    Translate();
   });
 
   return (
@@ -16,8 +15,9 @@ export default function Home() {
       </Head>
 
       <div>
-
-
+        <Stores/>
+        <About/>
+        <Products/>
       </div>
     </>
   );
