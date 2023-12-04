@@ -78,10 +78,10 @@ function Header() {
 
                 <nav className="nav">
                     <ul className="hamburgermenu">
-                        <li><Link onClick={closeHamburger} href="#stores">Stores</Link></li>
-                        <li><Link onClick={closeHamburger} href="#about">About us</Link></li>
-                        <li><Link onClick={closeHamburger} href="#products">Products</Link></li>
-                        <li><Link onClick={closeHamburger} href="#contact">Contact</Link></li>
+                        <li><Link onClick={closeHamburger} href="/#stores">Stores</Link></li>
+                        <li><Link onClick={closeHamburger} href="/#about">About us</Link></li>
+                        <li><Link onClick={closeHamburger} href="/#products">Products</Link></li>
+                        <li><Link onClick={closeHamburger} href="/#contact">Contact</Link></li>
                     </ul>
                     <div onClick={closeHamburger}>
                         <Image src={closeIco} alt="Close icon"/>

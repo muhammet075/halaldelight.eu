@@ -12,7 +12,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Halal Delight</title>
+          <title>Halal Delight EU</title>
+          <meta name="description" content="Provider of Halal candies and sweets available for purchase online, catering to customers in Europe."/>
+          <meta name="og:description" content="Provider of Halal candies and sweets available for purchase online, catering to customers in Europe."/>
+          <meta property="og:url" content="https://www.halaldelight.eu/"/>
+          <meta property="og:title" content="Halal Delight EU"/>
       </Head>
 
       <div>

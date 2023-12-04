@@ -1,5 +1,5 @@
 .header{
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
     left: 0;
@@ -27,7 +27,7 @@
 }
 
 .header > div > section > a img{
-    width: 250px;
+    width: 200px;
     height: auto;
     margin-top: 5px;
 }
@@ -35,7 +35,7 @@
 .header > div > nav{
     position: relative;
     width: auto;
-    margin-top: -100px;
+    margin-top: -50px;
     background-color: #ffff;
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -49,7 +49,7 @@
     display: flex;
     justify-content: space-around;
     list-style: none;
-    padding: 20px 0;
+    padding: 15px 10px;
 }
 
 .header > div > nav > ul li a{
@@ -102,7 +102,7 @@
     }
 
     .header > div > button > img{
-        width: 50px;
+        width: 40px;
         height: auto;
     }
 
@@ -150,6 +150,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .header{
+        position: fixed;
+    }
+    
     .header > div{
         padding: 0 15px;
     }
@@ -165,13 +169,13 @@
     }
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 450px) {
     .header > div > section > a > img{
-        width: 175px;
+        width: 150px;
     }
 
     .header > div > button > img{
-        width: 40px;
+        width: 35px;
     }
 }
 

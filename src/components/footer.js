@@ -33,10 +33,10 @@ function Footer() {
 
                 <ul>
                     <li><h2>Our Company</h2></li>
-                    <li><Link onClick={hideHeader} href="#stores">Stores</Link></li>
-                    <li><Link onClick={hideHeader} href="#about">About us</Link></li>
-                    <li><Link onClick={hideHeader} href="#products">Products</Link></li>
-                    <li><Link onClick={hideHeader} href="#contact">Contact</Link></li>
+                    <li><Link onClick={hideHeader} href="/#stores">Stores</Link></li>
+                    <li><Link onClick={hideHeader} href="/#about">About us</Link></li>
+                    <li><Link onClick={hideHeader} href="/#products">Products</Link></li>
+                    <li><Link onClick={hideHeader} href="/#contact">Contact</Link></li>
                 </ul>
 
                 <ul>
@@ -59,8 +59,8 @@ function Footer() {
                 <section>
                     <p>&copy; Copyright 2023 - 2024</p>
                     <span>
-                        <Link target="_blank" href="/privacy-policy">Privacy Policy</Link>
-                        <Link target="_blank" href="/terms-conditions">Terms & Conditions</Link>
+                        <Link href="/privacy-policy">Privacy Policy</Link>
+                        <Link href="/terms-conditions">Terms & Conditions</Link>
                     </span>
                 </section>
             </div>

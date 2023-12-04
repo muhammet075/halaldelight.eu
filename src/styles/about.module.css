@@ -50,6 +50,10 @@
     float: right;
 }
 
+.about > div > section:nth-of-type(1) > img:nth-of-type(1){
+    display: none;
+}
+
 @media only screen and (max-width: 1375px) {
     .about > div{
         padding: 0 50px;
@@ -64,6 +68,13 @@
 
     .about > div > section{
         width: 100%;
+    }
+
+    .about > div > section:nth-of-type(1) > img:nth-of-type(1){
+        display: block;
+        width: 100%;
+        margin: 50px auto;
+        border: 5px solid #eb4ba0;
     }
 
     .about > div > section:nth-of-type(2) > img{

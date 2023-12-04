@@ -7,13 +7,10 @@ export default function App({ Component, pageProps }) {
   return(
     <>
       <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
         <meta name="format-detection" content="telephone=no"/>
-        <meta name="description" content="Halal Delight EU"/>
-        <meta property="og:title" content="Halal Delight EU" />
-        <meta name="keywords" content="Halal Delight EU"/>
-        <meta property="og:url" content="https://www.halaldelight.eu/"/>
-        <meta property="og:image" content="/oglogo.png"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+        <meta property="og:image" content="/logo.png" />
+        <meta name="keywords" content="Halal Delight, Halal snoepjes, Halal candies, Halal sweets"/>
         <link rel="icon" type="image/x-icon" href="/logo.png"/>
       </Head>
       <Header/>
