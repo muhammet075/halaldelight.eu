@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
         <meta property="og:image" content="/logo.png" />
         <meta name="keywords" content="Halal Delight, Halal snoepjes, Halal candies, Halal sweets"/>
-        <link rel="icon" type="image/x-icon" href="/logo.png"/>
+        <link rel="icon" type="image/x-icon" href="/favico.png"/>
       </Head>
       <Header/>
       <main>
