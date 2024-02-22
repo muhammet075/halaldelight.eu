@@ -2,8 +2,24 @@ import { useEffect } from "react";
 import Head from "next/head";
 
 export default function TermsConditions() {
+
   useEffect(() => {
-  });
+
+
+  let gebruikerTaal = navigator.language || navigator.userLanguage;
+  if (gebruikerTaal.includes('nl')) {
+      // Nederland en Vlaanderen
+      window.location.href = "https://halaldelight.nl/product-categorie/halal-snoepjes/?count=60"
+    } else if (gebruikerTaal.includes('de')) {
+      // Duitsland en Oostenrijk
+      window.location.href = "https://halaldelight.de/produkt-kategorie/halal-suessigkeiten/?count=60"
+    } else if (gebruikerTaal.includes('fr')) {
+      // Frankrijk en Wallonië
+      window.location.href = "https://halaldelight.fr/categorie-produit/bonbons-halal/?count=60"  
+    } else {
+      window.location.href = "https://halaldelight.nl/product-categorie/halal-snoepjes/?count=60"
+  }
+});
 
   return (
     <>
@@ -19,7 +35,7 @@ export default function TermsConditions() {
         <div>
             <h1>Products</h1>
 
-            <b>Under Construction...</b>
+            <b>Redirecting...</b>
             <br/><br/><br/>
 
         </div>
